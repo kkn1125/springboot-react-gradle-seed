@@ -11,6 +11,7 @@
 - lombok
 - postgresql
 - h2
+- yarn
 
 ## 사용방법
 
@@ -21,7 +22,7 @@ $ mkdir clone-project
 $ cd clone-project
 $ curl -L -O -J https://github.com/kkn1125/springboot-react-gradle-seed/archive/refs/heads/main.zip && unzip *.zip -d . && rm -f springboot-react-gradle-seed-main.zip && shopt -s dotglob && mv -f springboot-react-gradle-seed-main/* ./ && rm -r -f springboot-react-gradle-seed-main/
 
-$ curl -L -O -J https://github.com/kkn1125/springboot-react-front-seed/archive/refs/heads/main.zip && unzip *.zip -d ./src/main/frontend/ && rm -f ./src/main/frontend/springboot-react-front-seed-main.zip && shopt -s dotglob && mv -f ./src/main/frontend/springboot-react-front-seed-main/* ./src/main/frontend/ && rm -r -f ./src/main/frontend/springboot-react-front-seed-main/
+$ curl -L -O -J https://github.com/kkn1125/springboot-react-front-seed/archive/refs/heads/main.zip && unzip *.zip -d ./src/main/frontend/ && rm -f ./springboot-react-front-seed-main.zip && shopt -s dotglob && mv -f ./src/main/frontend/springboot-react-front-seed-main/* ./src/main/frontend/ && rm -r -f ./src/main/frontend/springboot-react-front-seed-main/
 
 $ ./gradlew build
 $ java -jar build/libs/prj-0.0.1-SNAPSHOT.jar
@@ -75,6 +76,7 @@ springboot-react-front-seed 저장소와 연결되어 있습니다.
 ├──build.gradle  
 ├──gradlew  
 ├──gradlew.bat  
+├──README.md  
 └──settings.gradle  
 
 <!-- gradle/
